@@ -4,12 +4,15 @@
 
  let estudiante = {
      nombre: 'Alba',
-     conocimientos: ['Trello', 'Adobe']
+     conocimientos: ['Trello', 'Adobe'],
      nuevosConocimientos: function(nombreConocimiento){
-         this.nuevosConocimientos.push(nombreConocimiento);
+         this.conocimientos.push(nombreConocimiento);
      }
  }
 
+
+ estudiante.nuevosConocimientos("CSS");
+ console.log(estudiante.conocimientos);
 /**
  * Alba ha aprendido hace poco a trabajar con CSS. Escribe UNA sentencia JavaScript que modifique la propiedad 'conocimientos'; y añade uno nuevo: 'CSS'
  * 
@@ -29,6 +32,7 @@
 /* SOLUCION 1 estudiante.conocimientos.push("CSS");
  console.log(estudiante);*/
 
- /* SOLUCION 2 */
 
- 
+
+
+
