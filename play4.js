@@ -2,19 +2,21 @@
  * Imagina el árbol DOM como un montón de objetos JavaScript
  */
 
- /**
-  * Imagina que existe el siguiente objeto
-  */
+/**
+ * Imagina que existe el siguiente objeto
+ */
 
-let div,span,img
+let div, span, img
 
- div = {
+div = {
     width: '100%',
     height: 'auto',
     class: ['container', 'text-align'],
     margin: {
         top: '1rem',
-        bottom: '1rem'
+        bottom: '1rem',
+        left: '1rem',
+        right: '1rem'
     },
 
     backgroundImage: 'images/patronFondo.jpeg',
@@ -31,7 +33,7 @@ let div,span,img
 span = {
     width: '100%',
     textContent: 'Hola! Estamos a punto de adentrarnos en la manipulación del DOM con JavaScript!',
-    
+
     parent: div
 }
 

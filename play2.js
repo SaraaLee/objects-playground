@@ -11,10 +11,10 @@ let gato = {
     }
 }
 
-console.log("Nombre", gato.nombre)
-console.log("Edad", gato.edad)
+console.log("Nombre", gato.nombre);
+console.log("Edad", gato.edad);
 
-gato.maullar()
+gato.maullar();
 
 
 /**
@@ -23,7 +23,7 @@ gato.maullar()
 /**
  * Las popiedades de los objetos se pueden actualizar.
  * Lo hacemos de manera muy similar a como actualizamos variables (de hecho, al fin y al cabo, un objeto se compone de un conjunto de variales)
- */
+//  */
 
-gato.edad++
-console.log("Feliz cumpleaños, gato! Tu edad es ahora: " + gato.edad)
+// gato.edad++
+// console.log("Feliz cumpleaños, gato! Tu edad es ahora: " + gato.edad)
