@@ -5,6 +5,9 @@
  let estudiante = {
      nombre: 'Alba',
      conocimientos: ['Trello', 'Adobe']
+     nuevosConocimientos: function(nombreConocimiento){
+         this.nuevosConocimientos.push(nombreConocimiento);
+     }
  }
 
 /**
@@ -22,3 +25,10 @@
  * 1. ¿De tipo de variable es 'conocimientos'?
  * 2. ¿Cuál es el método para añadir un nuevo elemento a un array?
  */
+
+/* SOLUCION 1 estudiante.conocimientos.push("CSS");
+ console.log(estudiante);*/
+
+ /* SOLUCION 2 */
+
+ 
