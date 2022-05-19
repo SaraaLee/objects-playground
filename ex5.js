@@ -39,7 +39,7 @@ function buscarPez(banco_peces, pezBuscado) {
         let nombrePezActual = banco_peces[indicePez].nombre;
 
         if (nombrePezActual == pezBuscado){
-            pezEncontrado == true;
+            pezEncontrado = true;
         }
 
         indicePez++;
